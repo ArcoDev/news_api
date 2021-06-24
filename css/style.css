@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(243, 243, 243)!important;
+}
+
+/*AUTHOR*/
+.box-author{
+  background: #fff;
+}
+.info-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.author {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name p {
+  margin: 10px;
+  font-size: 1.3rem;
+  color: rgb(1, 81, 252);
+}
+
+/*ARTICLE*/
+.img-article{
+  width: 100%;
+  height: 350px;
+  margin: 10px;
+  object-fit: contain;
+}
+.box-news {
+  margin: 10px !important;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.title{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: rgb(0, 18, 36);
+  margin: 1rem 0;
+}
+.description {
+  font-size: 1.2rem;
+  color: rgb(33, 51, 70);
+}
+.footer-article{
+  padding-top: 1rem;
+}
+.footer-article p {
+  margin-top: .5rem;
+}
+.footer-article p span {
+  color: rgb(0, 18, 36);
+  font-weight: bold;
+}
