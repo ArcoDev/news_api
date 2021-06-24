@@ -14,7 +14,7 @@
 
 <body>
     <?php
-        $url_News = 'https://newsapi.org/v2/everything?q=tesla&from=2021-05-24&sortBy=publishedAt&apiKey=1549669a2b0949a0a0f114505758e9a9';
+        $url_News = 'https://newsapi.org/v2/everything?q=apple&from=2021-06-23&to=2021-06-23&sortBy=popularity&apiKey=1549669a2b0949a0a0f114505758e9a9';
         $responseNews = file_get_contents($url_News);
         $NewsData = json_decode($responseNews);
         $incUser = 0;
